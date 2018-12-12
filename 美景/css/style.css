@@ -1,0 +1,74 @@
+/*页面全局样式――父元素*/
+body {
+	font-family:arial;
+	font-size:12px; 			/*文字大小为12px*/
+	padding:0px; 			/*内边距为0px*/
+	margin:0px; 			/*外边距为0px*/
+	background:#f8f8f8; 		/*浅灰色背景*/
+}
+a{
+	text-decoration:none; 		/*链接无修饰*/
+}
+img{
+	border:none; 			/*图像无边框*/
+}
+.main {						/*设置页面主体的样式*/
+	width:720px; 			/*页面主体宽度为1000px*/
+	margin:auto; 			/*上下左右都自动适应*/
+	background:#fff; 		/*白色背景*/
+	padding:3px; 			/*内边距为3px*/
+
+}
+.matter1{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	margin-top:6px;
+}
+.matter1 .left{
+	width:650px;
+	float:left;
+}
+/* 幻灯片广告样式 */
+.slider{
+	margin:5px auto;
+	width:650px;
+	height:318px;
+	border:1px solid #ccc;
+	position:relative;
+}
+.conbox{		/* 播放面板样式 */
+	position:absolute;
+	padding:8px 8px 8px 8px;
+}
+.switcher{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	float:right;
+	z-index:99;
+}
+.switcher a{
+	background:#fff;
+	border:1px solid #D00000;
+	cursor:pointer;
+	float:left;
+	font-family:arial;
+	height:18px;
+	line-height:18px;
+	width:18px;
+	margin:4px;
+	text-align:center;
+	color:#D00000;
+}
+.switcher a.cur,.switcher a:hover{
+	background:#FF0000;
+	border:1px solid #D00000;
+	height:24px;
+	line-height:24px;
+	width:24px;
+	margin:0 2px;
+	color:#fff;
+	font-weight:800;
+}
+

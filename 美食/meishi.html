@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>美食大全</title>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- animation-effect -->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smooth-scrolling -->
+</head>
+<body>
+       <div class="header"><div class="top">
+        <div class="time">
+     <div id="test" align="right" ></div>
+</div>
+<script >
+setInterval("test.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+</script>
+<h1 align="center"><font face="华文彩云" size="12">特色美食</h1>
+       <p align="right" ><font face="黑体" size="4"><img src="images/美食.jpg" width="560" height="320"  align="center"/>美食，是人们的最爱。而作为文明古城的临汾，几千年的传承，流传下来的不仅有辉煌的历史文化，更有让人垂涎欲滴的美食文化。如：洪洞的酥肉面、浮山的刀削面、隰县的梨等。夏天，一碗热辣辣的面，让人忘记酷暑。冬天，一碗热辣辣的面能抵挡彻骨严寒。
+</p> 
+         <div class="header-right">
+						<nav>
+						  <ul>
+							<li class="active">
+								<a href="index.html"><i class="glyphicon glyphicon-home" aria-hidden="true"></i><span>Home</span></a>
+							</li>
+							<li>
+								<a href="about.html"><i class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></i><span>About</span></a>
+							</li>
+							<li>
+								<a href="short-codes.html"><i class="glyphicon glyphicon-text-size" aria-hidden="true"></i><span>Short Codes</span></a>
+							</li>
+							<li>
+								<a href="blog.html"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i><span>Blog</span></a>
+							</li>
+							<li>
+								<a href="mail.html"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><span>Mail Us</span></a>
+							</li>
+						  </ul>
+						</nav>
+						<div class="menu-icon animated wow zoomIn" data-wow-duration="1000ms" data-wow-delay="800ms"><span></span></div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="logo animated wow bounceInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h1><a href="index.html"><span>family friendly</span>Best Bakery</a></h1>
+				</div>
+				<div class="social-icons animated wow bounceInDown" data-wow-duration="1000ms" data-wow-delay="800ms">
+					<ul>
+						<li><a href="#" class="twitter"></a></li>
+						<li><a href="#" class="facebook"></a></li>
+						<li><a href="#" class="google"></a></li>
+						<li><a href="#" class="p"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<script>
+				(function($){
+				  $(".menu-icon").on("click", function(){
+						$(this).toggleClass("open");
+						$(".container").toggleClass("nav-open");
+						$("nav ul li").toggleClass("animate");
+				  });
+				  
+				})(jQuery);
+			</script>
+	</div>
+<!-- //banner -->
+<!-- banner-bottom -->
+	<div class="banner-bottom animated wow lightSpeedIn" data-wow-duration="1500ms" data-wow-delay="800ms">
+		<ul id="flexiselDemo1">	
+			<li>
+				<div class="item item-sub">
+					<div class="item1">
+						<i class="glyphicon glyphicon-cutlery" aria-hidden="true"></i>
+						<h3>牛肉丸子面</h3>
+					</div>
+					<div class="p-mask">
+						<h4>简单介绍</h4>
+						<p>牛肉丸子面用一个字概括——“爽”，用两个字概括是“香辣”。牛肉丸子面中，有牛肉、丸子的香，还有秘制的汤，很辣很爽，吃起来大汗淋漓。满满一大碗面条上漂着红红的辣椒油，充满食欲感、溜圆的牛肉丸子伴着碧绿的香菜，纯朴简单的美味令人酣畅淋漓。</p>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="google"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="item item-sub1">
+					<div class="item1">
+						<i class="glyphicon glyphicon-cutlery" aria-hidden="true"></i>
+						<h3>霍州年馍</h3>
+					</div>
+					<div class="p-mask">
+						<h4>简单介绍</h4>
+						<p>霍州年馍一种山西省的传统民俗工艺品，亦可食用。花馍可以说是山西特有的传统手工艺。它体现出了山西人民的智慧和才能，是具有北方特色的民间艺术品之一。</p>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="google"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="item item-sub2">
+					<div class="item1">
+						<i class="glyphicon glyphicon-cutlery" aria-hidden="true"></i>
+						<h3>乡宁空心月饼</h3>
+					</div>
+					<div class="p-mask">
+						<h4>简单介绍</h4>
+						<p>空心月饼是用熟油和上白面，用白糖、红糖、芝麻、碎花生仁、核桃仁、青红丝等拌成馅，在雕花的月饼模子里拓，磕出，在抹过油的热鏊烙，放入鏊下与火有适当距离的炉壁内烤而做成的月饼。乡宁月饼中空，壁厚不过半公分，特别酥，因此十分易碎。</p>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="google"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="item item-sub3">
+					<div class="item1">
+						<i class="glyphicon glyphicon-cutlery" aria-hidden="true"></i>
+						<h3>泡泡糕</h3>
+					</div>
+					<div class="p-mask">
+						<h4>简单介绍</h4>
+						<p>太后御膳泡泡糕，是山西省临汾市侯马地区的著名特色糕类小吃之一，因油炸过的糕点表面起了许多鼓起来的泡泡而得名。泡泡糕以白面、猪油、陈皮、玫瑰、核桃仁、青梅、樱桃、白糖、香料等做原料，经过烫面、制馅、油炸等工序制作而成。吃起来香甜酥脆，味美可口。</p>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="google"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+       <li>
+				<div class="item item-sub4">
+					<div class="item1">
+						<i class="glyphicon glyphicon-cutlery" aria-hidden="true"></i>
+						<h3>吴家熏肉</h3>
+					</div>
+					<div class="p-mask">
+						<h4>简单介绍</h4>
+						<p>吴家熏肉，是山西省临汾市的著名传统特色小吃之一，始创于清末时期，至今已有百余年的历史。吴家熏肉品种还有熏猪心、熏猪肝、熏猪蹄、熏猪肚、熏猪头等，食之肥而不腻，咸香浓郁，风味独特。</p>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="google"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+			<script type="text/javascript">
+				$(window).load(function() {
+				$("#flexiselDemo1").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 2
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+				
+			 });
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
+<!-- //banner-bottom -->
+
+<!-- footer -->
+	<div class="footer animated wow bounce" data-wow-duration="1000ms" data-wow-delay="800ms">
+		<div class="container">
+			<p>Copyright &copy; 2018.太原师范学院 All rights reserved.</p>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
